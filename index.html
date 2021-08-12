@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="style/style.css">
+   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+   <title>photo store</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container">
+         <nav class="nav__menu">
+            <div class="menu__logo768">
+               <a class="menu__link" href="#" class="logo">
+                  <img class="menu__img" src="images/Header/Logo.svg" alt="logo">
+               </a>
+            </div>
+            <ul class="header__menu">
+               <li class="menu__logo"><a class="menu__link" target="blank" href="SOURCE/for__example.html" class="logo">
+                     <img class="menu__img" src="images/Header/Logo.svg" alt="logo">
+                  </a></li>
+               <li class="menu__item"><a class="menu__item-link" href="#">Каталог</a></li>
+               <li class="menu__item"><a class="menu__item-link" href="#">Акции</a></li>
+               <li class="menu__item"><a class="menu__item-link" href="#">Доставка</a></li>
+               <li class="menu__item"><a class="menu__item-link" href="#">Оплата</a></li>
+            </ul>
+
+            <div class="burger375">
+               <button class="burger btn__icon" id="burger-btn">
+                  <img class="icon__img" src="images/Header/bur-menu.svg" alt="burger">
+               </button>
+               <input type="text" class="menu__link-search375 menu__link-search_1440" id="#" placeholder="Поиск">
+            </div>
+
+
+            <div class="header__right">
+               <div class="header__search"> <input type="text" class="menu__link-search" id="#1" placeholder="Поиск">
+               </div>
+               <div class="header__right_icons">
+                  <button class="menu__user btn__icon" id="open-user">
+                     <img class="icon__img" src="images/Header/user.svg" alt="user">
+                  </button><button class="menu__basket btn__icon" id="open-basket">
+                     <img class="icon__img" src="images/Header/basket.svg" alt="basket">
+                  </button>
+                  <button class="menu__burger768 btn__icon" id="hz">
+                     <img class="icon__img" src="images/Header/bur-menu.svg" alt="burger">
+                  </button>
+               </div>
+
+            </div>
+            <button class="burger375 btn__icon" id="burger-btn">
+               <img class="icon__img" src="images/Header/bur-menu.svg" alt="burger">
+            </button>
+         </nav>
+      </div>
+
+
+      </div>
+      </div>
+   </header>
+
+
+   <!-- ---------/MODAL -------- -->
+   <section class="modal" id="modal__callback">
+      <div class=" modal__body" >
+         <div class="modal__heading">
+            <h3 class="modal__text">Заказ обратного звонка</h3>
+            <button class=" modal__form-btn" id="closeModal">
+               <p>&#10005;</p>
+            </button>
+         </div>
+         <form class="modal__form" action="#">
+            <div class="form__item">
+               <label class="input__label" for="username">Имя</label>
+               <input class="input__user" type="text" name="username" id="username">
+            </div>
+
+
+            <div class="form__item">
+               <label class="input__label" for="userphone">Номер телефона</label>
+               <input class="input__user input__user-mb64" type="text" name="userphone" id="userphone">
+            </div>
+
+            <div class="form__item">
+               <div class="checkbox">
+                  <input id="formAgreement" checked type="checkbox" name="agrement" class="checkbox__input">
+                  <label for="formAgreement" class="checkbox__label_person-data">Согласен на обработку <a href="#"
+                        class="link__label_person-data">персональных данных</a></label>
+               </div>
+            </div>
+            <button type="submit" class="btn form btn__more" id="call_back"> Заказать<span>&#10141;</span></button>
+         </form>
+      </div>
+   </section>
+   <!-- ---------/MODAL -------- -->
+
+
+   <!-- ----  PROMO ------- -->
+   <section class="promo ">
+      <div class="container">
+         <div class="promo__inner">
+            <div class="promo__slider-item">
+               <h5 class="title title__promo-banner">Промо баннер 1</h5><img src="images/banner/Frame17.png">
+            </div>
+            <div class="promo__slider-item">
+               <h5 class="title title__promo-banner">Промо баннер 2</h5><img data-lazy="images/banner/Frame 21.jpg">
+            </div>
+            <div class="promo__slider-item">
+               <h5 class="title title__promo-banner"> Промо баннер 3 </h5><img data-lazy="images/banner/Frame 22.jpg">
+            </div>
+         </div>
+      </div>
+      </div>
+   </section>
+   <!-- ----  /PROMO ------- -->
+
+   <!-- ----  CATALOG ------- -->
+   <section class="catalog">
+      <div class="container">
+         <h3 class="title">Разделы каталога</h3>
+         <div class="catalog__inner">
+            <div class="catalog__items">
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/photokits.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/laptops.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/stuffed-toys.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/women-shoose.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/bags.svg" alt="item-product"></a>
+            </div>
+
+            <div class="catalog__items">
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/light.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/flowers.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/kids-bikes.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/books.svg" alt="item-product"></a>
+               <a href="#" class="catalog__item">
+                  <img class="item__logo" src="images/Catalog/pizza.svg" alt="item-product"></a>
+            </div>
+
+            <details class="catalog__more">
+               <summary class="btn btn__more">Показать больше</summary>
+
+               <div class="catalog__items">
+
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/photokits.svg" alt="item-product">
+                  </a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/laptops.svg" alt="item-product"></a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/stuffed-toys.svg" alt="item-product"></a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/women-shoose.svg" alt="item-product"></a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/bags.svg" alt="item-product"></a>
+               </div>
+               <div class="catalog__items">
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/light.svg" alt="item-product"></a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/flowers.svg" alt="item-product"></a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/kids-bikes.svg" alt="item-product"></a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/books.svg" alt="item-product"></a>
+                  <a href="#" class="catalog__item">
+                     <img class="item__logo" src="images/Catalog/pizza.svg" alt="item-product"></a>
+               </div>
+            </details>
+         </div>
+      </div>
+   </section>
+   <!-- ----  /CATALOG ------- -->
+
+
+   <!-- ----  POPULAR   ------- -->
+   <!-- <section class="popular">
+   <div class="container">
+         <h3 class="title">Популярные товары</h3>
+         <div class="popular__inner">
+         <div class="popular__items items_card">
+
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            
+
+
+         </div>
+         <div class="popular__items items_banner">
+            <div class="small__box-banner top-left">
+               <h3 class="title small__title">Промо баннер</h3>
+            </div>
+            <div class="small__box-banner top-right">
+               <h3 class="title small__title">Промо баннер</h3>
+            </div>
+         </div>
+
+         <div class="popular__items items_card">
+
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            <div class="product__item">
+               <div class="product__card">
+                  <a class="product__img" href="#"></a>
+                  <div class="product__sale">
+                     <p class="sale">5%</p>
+                  </div>
+                  <button class="product__favorit"></button>
+                  <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                        ></button>
+               </div>
+               <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                     class="card-noprice">29 990,00<span>₽</span></span></div>
+               <div class="card__description">Фотоаппарат Nikon D3400</div>
+            </div>
+            
+
+
+         </div>
+
+
+         <details class="more">
+            <summary class="btn btn__more">Показать больше</summary>
+            <div class="popular__items items_banner">
+               <div class="small__box-banner down-left">
+                  <h3 class="title small__title">Промо баннер</h3>
+               </div>
+               <div class="small__box-banner down-right">
+                  <h3 class="title small__title">Промо баннер</h3>
+               </div>
+            </div>
+            <div class="popular__items items_card">
+
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               
+   
+   
+            </div>
+            <div class="popular__items items_card">
+
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               
+   
+   
+            </div>
+            <div class="popular__items items_card">
+
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               <div class="product__item">
+                  <div class="product__card">
+                     <a class="product__img" href="#"></a>
+                     <div class="product__sale">
+                        <p class="sale">5%</p>
+                     </div>
+                     <button class="product__favorit"></button>
+                     <button class="product__basket"><img class="img-buy" src="images/Catalog/popular/product__basket.svg"
+                           ></button>
+                  </div>
+                  <div class="product__card-price"><span class="card-price">28 490,50 <span>₽</span></span><span
+                        class="card-noprice">29 990,00<span>₽</span></span></div>
+                  <div class="card__description">Фотоаппарат Nikon D3400</div>
+               </div>
+               
+   
+   
+            </div>
+            
+
+         </details>
+      </div>
+      </div>
+      </div>
+   </section> -->
+   <!-- ----  /POPULAR   ------- -->
+
+   <!-- ----  FOOTER   ------- -->
+   <footer class="footer">
+      <section class="footer__section">
+         <div class="footer__inner">
+            <div class="footer__inner-logo768" id="footer-menu">
+               <a class="logo__link" href="#">
+                  <img class="logo__img" src="images/Header/Logo.svg" alt="logo">
+               </a>
+            </div>
+            <div class="footer__inner-info">
+               <div class="footer__inner-logo1440" id="footer-menu">
+                  <a class="logo__link" href="#">
+                     <img class="logo__img" src="images/Header/Logo.svg" alt="logo">
+                  </a>
+               </div>
+               <ul class="list__info">
+                  <li class="client">
+                     <h3>Покупателям</h3>
+                  </li>
+                  <li class="client"><a href="#" class="clients-link"><span>Акции</span></a></li>
+                  <li class="client"><a href="#" class="clients-link"><span>Оплата</span></a></li>
+                  <li class="client"><a href="#" class="clients-link"><span>Доставка</span></a></li>
+                  <li class="client"><a href="#" class="clients-link"><span>Гарантия</span></a></li>
+                  <li class="client"><a href="#" class="clients-link"><span>Вопросы и ответы</span></a></li>
+               </ul>
+               <div class="row__phone">
+                  <ul class="info-company">
+                     <li class="company"> 
+                        <h3>Компания</h3>
+                     </li>
+                     <li class="company"><a href="#" class="company-link"><span>Блог</span></a></li>
+                     <li class="company"><a href="#" class="company-link"><span>Контакты</span></a></li>
+                  </ul>
+                  <ul class="info-social">
+                     <li class="clients">
+                        <h3>Соцсети</h3>
+                     </li>
+                     <li class="clients"><a href="#" class="clients-link"><span>Вконтакте</span></a></li>
+                     <li class="clients"><a href="#" class="clients-link"><span>Instagram</span></a></li>
+
+                  </ul>
+               </div>
+            </div>
+
+            <div class="footer__inner-item">
+               <div class="menu-logo_adaptive">
+                  <a class="menu__link" href="#" class="logo">
+                     <img class="menu__img" src="images/Header/Logo.svg" alt="logo">
+                  </a>
+               </div>
+               <div class="footer__callback">
+                  <button class="footer__inner-item_btn" id="footer__inner-item"><img
+                        src="images/Footer/footer-phone.svg" ></button>
+                  <a href="#" class="home"><img class="go__home" src="images/Footer/ic24-arrow-up.svg" alt="left"></a>
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+   </footer> 
+   <!-- ----  /FOOTER   ------- -->
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script type="text/javascript" src="JS/slick.min.js"></script>
+   <script type="text/javascript" src="JS/javascript.js"></script>
+</body>
+
+</html>
