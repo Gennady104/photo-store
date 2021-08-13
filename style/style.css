@@ -2,14 +2,16 @@
    font-family: "Raleway";
    src:
       local("Raleway"),
-      url(/fonts/Raleway/static/Raleway.ttf)
+      url(/fonts/Raleway/static/Raleway.ttf);
+   font-display: swap;
 }
 
 @font-face {
    font-family: "Source Sans Pro";
    src:
       local("Source San Pro"),
-      url(/fonts/Source_Sans_Pro/SourceSansPro.ttf)
+      url(/fonts/Source_Sans_Pro/SourceSansPro.ttf);
+   font-display: swap;
 }
 
 
