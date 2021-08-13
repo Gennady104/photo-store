@@ -2,16 +2,14 @@
    font-family: "Raleway";
    src:
       local("Raleway"),
-      url(/fonts/Raleway/static/Raleway.ttf), 
-      /* url(/fonts/Raleway/static/Raleway-Bold.ttf); */
+      url(/fonts/Raleway/static/Raleway.ttf)
 }
 
 @font-face {
    font-family: "Source Sans Pro";
    src:
       local("Source San Pro"),
-      url(/fonts/Source_Sans_Pro/SourceSansPro.ttf),
-      /* url(/fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf); */
+      url(/fonts/Source_Sans_Pro/SourceSansPro.ttf)
 }
 
 
@@ -319,7 +317,7 @@ body{
 }
 .input__label{
    color: #000;
-font-family: Source Sans Pro;
+font-family: 'Source Sans Pro';
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -359,7 +357,7 @@ text-decoration:underline;
 
 
 .form__label{
-   font-style: 18px;
+   font-size: 18px;
    display: block;
    margin: 0px 0px 10px 0px;
 }
@@ -424,7 +422,7 @@ font-size: 18px;
    flex: 0 0 24px;
    height: 24px;
    border-radius: 50%;
-   background-color: ccc;
+   background-color: #ccc;
    margin: 10px;
    transform:scale(1);
    cursor: pointer;
@@ -494,7 +492,8 @@ font-size: 18px;
 .promo__inner .slick-arrow.slick-prev{
    right: 0;
    /* right:55px; */
-   background: url(../images/Promo/right-before.svg) 0 0/100% no-repeat;
+   background: url(../images/Promo/right-before.svg) 0 0 no-repeat;
+   background-size: 100%;
 }
 .promo__inner .slick-arrow.slick-prev:hover{
    background: url(../images/Promo/right-after.svg);
@@ -502,7 +501,8 @@ font-size: 18px;
 .promo__inner .slick-arrow.slick-next{
    left: 220px;
    /* left:55px;  */
-   background: url(../images/Promo/left-before.svg) 0 0/100% no-repeat;
+   background: url(../images/Promo/left-before.svg) 0 0 no-repeat;
+   background-size: 100%;
 }
 .promo__inner .slick-arrow.slick-next:hover{
    background: url(../images/Promo/left-after.svg);
