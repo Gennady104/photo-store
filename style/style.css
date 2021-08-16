@@ -2,7 +2,7 @@
    font-family: "Raleway";
    src:
       local("Raleway"),
-      url(/fonts/Raleway/static/Raleway.ttf);
+      url(../fonts/Raleway/static/Raleway.ttf);
    font-display: swap;
 }
 
@@ -10,7 +10,7 @@
    font-family: "Source Sans Pro";
    src:
       local("Source San Pro"),
-      url(/fonts/Source_Sans_Pro/SourceSansPro.ttf);
+      url(../fonts/Source_Sans_Pro/SourceSansPro.ttf);
    font-display: swap;
 }
 
@@ -925,9 +925,7 @@ details[open] summary {
 .footer__inner-logo768{
    display: none;
 } 
-.footer__inner-logo1440{
-   /* margin-right: 80px; */
-}
+
 .list__info{
    flex:0 0 140px;
    margin-left: calc(23px + (80 - 23)*((100vw - 768px)/(1440 - 768)));
@@ -1042,9 +1040,7 @@ details[open] summary {
    .title{
       font-size: 32px;
    }
-   .small__title{
-      /* font-size: 24px; */
-   }
+   
    .menu__logo768{
       display: block;
       margin-right: 15px;
@@ -1056,10 +1052,7 @@ details[open] summary {
       width: 436px;
    }
    
-   .header__search{
-      /* width: 280px; */
-      /* width: calc(180px + (280 - 180)*(100vw - 320px)/(768 - 320)); */
-   }
+   
    .header__right_icons{
       flex:0 1 120px;
       /* width: 120px; */
