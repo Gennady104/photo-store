@@ -146,11 +146,13 @@ body{
    display: none;
 }
 .header__right{
+   /* position: absolute; */
    position: relative;
    display: flex;
    /* flex: 1 1; */
    justify-content: space-between;
    align-items: center;
+   /* width: 100%; */
    width: 348px;
    height: 35px;
 }
@@ -162,6 +164,7 @@ body{
 .menu__link-search{   
    position: absolute;
    top: 0;
+   /* left: 150px; */
    background: url("../images/Header/Search.svg") 13px center no-repeat;
    background-color: #fff; 
    padding: 8px 12px 8px 38px;
@@ -173,9 +176,9 @@ body{
    outline:none;
    }
 .menu__link-search:focus{
-   transform: translateX(-48.5vw);
-   width:calc(65.2vw);
-   /* width: 900px;  */
+   transform: translateX(-76%);
+   /* width:calc(210%); */
+   width: 900px; 
    } 
 .header__right_icons{
    display: flex;
@@ -445,6 +448,7 @@ font-size: 18px;
 
 
 .promo__inner{
+   position: relative;
    width: 100%;
    padding: 80px 0px;
    /* margin:0 0 0 -220px; */
@@ -470,7 +474,7 @@ font-size: 18px;
    height: 360px;
 }
 
-  /*------ стартовый слайд---------  */
+  /*------ стартовый слайд ---------  */
   
 .slick-slide:first-child{
    padding:0 0 0 220px;
@@ -483,6 +487,23 @@ font-size: 18px;
 .promo__slider-item + .promo__slider-item{
    display: none;
 }
+
+.promo__inner::before{
+   content: url(../images/Promo/left-before.svg);
+   position: absolute;
+   top: calc(50% - 34px);
+   left: 0;
+   
+}
+.promo__inner::after{
+   content: url(../images/Promo/right-before.svg);
+   position: absolute;
+   top: 50%;
+   top: calc(50% - 34px);
+   right: 0;
+   
+}
+
 /*------ /стартовый слайд---------  */
 
 
@@ -508,6 +529,7 @@ font-size: 18px;
    /* height: 360px; */
    height: 100%;
 }
+
 .promo__inner .slick-arrow.slick-prev{
    right: 0;
    /* right: 255px; */
